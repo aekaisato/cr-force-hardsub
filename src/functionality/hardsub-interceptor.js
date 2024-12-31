@@ -27,7 +27,7 @@ const subSub = (requestDetails) => {
   }
 
   if (
-    url.host == "cr-play-service.prd.crunchyrollsvc.com" &&
+    url.host == "www.crunchyroll.com" &&
     url.pathname.endsWith("play") &&
     requestDetails.method == "GET"
   ) {

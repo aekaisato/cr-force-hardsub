@@ -2,7 +2,7 @@
   "description": "force crunchyroll to use hardsub video",
   "manifest_version": 3,
   "name": "spicyroll",
-  "version": "0.1",
+  "version": "0.2",
 
   "permissions": [
     "webRequest",
@@ -11,8 +11,7 @@
     "storage"
   ],
   "host_permissions": [
-    "https://www.crunchyroll.com/watch/*",
-    "https://cr-play-service.prd.crunchyrollsvc.com/*"
+    "https://www.crunchyroll.com/*"
   ],
 
   "background": {
